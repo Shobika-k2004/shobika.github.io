@@ -1,352 +1,164 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>shobika</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/color.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-  <!-- ***********style switcher*********** -->
-  <link rel="stylesheet" href="css/color.css" class="alternate-style" title="color" disabled>
-  <link rel="stylesheet" href="css/color1.css" class="alternate-style" title="color-1" disabled>
-  <link rel="stylesheet" href="css/color2.css" class="alternate-style" title="color-2" disabled>
-  <link rel="stylesheet" href="css/color3.css" class="alternate-style" title="color-3" disabled>
-  <link rel="stylesheet" href="css/color4.css" class="alternate-style" title="color-4" disabled>
-  <link rel="stylesheet" href="css/style-switcher.css">
-  <!-- favicon -->
-  <link rel="shortcut icon" href="images\shobika.jpg" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Code</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
-<body >
-  <!------- Main-Container Start -------->
-  <div class="main-container">
-    <!-- --------aside start------ -->
-    <aside class="aside">
-    <div class="logo">
-      <a href="#"><span>S</span>hobika</a>
-    </div>
-    <div class="nav-toggler">
-      <span></span>
-    </div>
-    <ul class="nav">
-     <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
-     <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
-     <li><a href="#services"><i class="fa fa-list"></i>Skills</a></li>
-     <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Projects</a></li>
-     <li><a href="#contact"><i class="fa fa-comments"></i>contact</a></li>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <div>
+          <h1 class="navbar-brand">Shobika</h1>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#about">About</a></li>
+          <li><a href="#my-works">Portfolio</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+          <li><a href="https://drive.google.com/file/d/1HCfQKxjEk6JnrTqWrVo0b_uaPCVctDyI/view" target="blank">Resume</a></li>
+        </ul>
+      </div>
     </nav>
-    </aside>
-    <!-- --------aside end------ -->
-    <!-- ******* main-content-start ******* -->
-    <div class="main-content">
-
-      <!-- ********home-section-start ***** -->
-      <section class="home section" id="home">
-        <div class="container">
-          <div class="row">
-            <div class="home-info padd-15">
-              <h3 class="hello"><span class="name">Hello !</span></h3>
-              <h3 class="my-profession">I' m a <span class="typing"></span></h3>
-              <p>An Enthusiastic Data Science and Machine Learning Professional, Determined to Utilize AI for Real-World Solutions.</p>
-              <a href="#contact" class="btn hire-me">hire Me</a>
-              <a href="https://drive.google.com/file/d/1HCfQKxjEk6JnrTqWrVo0b_uaPCVctDyI/view?usp=sharing" target="_blank" class="btn hire-me">Resume <i class="uil uil-file-alt"></i></a>
-            </div>
-
-            <div class="home-img padd-15">
-              <img src="images\shobika.jpg" alt="">
-            </div>
+    <div class="home-content" id="home-page">
+      <div class="name">
+        <h1>Hi, I'm Shobika</h1>
+        <p>An Enthusiastic Data Science and Machine Learning Professional, Determined to Utilize AI for Real-World Solutions.</p>
+      </div>
+      <div class="angle-down-icon">
+        <a href="#about"><i class="fas fa-angle-down"></i></a>
+      </div>
+    </div>
+  </header>
+  <section class="about-me" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="left-content">
+          <div>
+            <h1 class="about-heading">About Me</h1>
+          </div>
+          <img src="IMG20231005202011.jpg" alt="image" />
+          <p>
+            I am a highly motivated and passionate individual with a strong background in the fields of data science and machine learning. 
+            My unwavering commitment is to harness the power of artificial intelligence and machine learning to address complex real-world challenges and provide innovative solutions that make a meaningful impact.
+          </p>
+          <div class="work-arrow">
+            <p>
+              <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+            </p>
           </div>
         </div>
-      </section>
-      <!-- ********home-section-end ***** -->
-
-
-      <!-- ********about-section-start***** -->
-      <section class="about section" id="about">
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>about me</h2>
+        <div class="skills">
+          <div class="right-content">
+            <div>
+              <h1 class="skills-heading">My Skills</h1>
             </div>
-          </div>
-
-          <div class="row">
-            <div class="about-content padd-15">
-              <div class="row">
-              <div class="about-text padd-15">
-                <p>I am a highly motivated and passionate individual with a strong background in the fields of data science and machine learning. My unwavering commitment is to harness the power of artificial intelligence and machine learning to address complex real-world challenges and provide innovative solutions that make a meaningful impact.</p>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="personal-info padd 15">
-              <div class="row">
-              <div >
-                <a href="https://instagram.com/_.little_cupid__?igshid=MzNlNGNkZWQ4Mg==" target="_blank" class="btn hire-me"><i class="uil uil-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/shobika-k-0a1027221" target="_blank" class="btn hire-me"><i class="uil uil-linkedin-alt"></i></i></a>
-                <a href="https://twitter.com/ShobikaDev58367" target="_blank" class="btn hire-me"><i class="uil uil-twitter"></i></a>
-                <a href="https://github.com/Shobika-k2004" target="_blank" class="btn hire-me"><i class="uil uil-github-alt"></i></a><br><br>
-                <a href="https://drive.google.com/file/d/1HCfQKxjEk6JnrTqWrVo0b_uaPCVctDyI/view?usp=sharing" target="_blank" class="btn hire-me">Resume <i class="uil uil-file-alt"></i></a>  
-              </div>
-              <!-- <div class="info-item padd-15">
-                <p>Phone: <span>+9188 6043 4992</span></p>
-              </div> -->
-
-
-              <!--div class="row">
-                 <div class="buttons padd-15">
-                  <a href="#" target="_blank" class="btn hire-me"><i class="uil uil-github-alt"></i></a>
-                  <a href="https://drive.google.com/file/d/1HCfQKxjEk6JnrTqWrVo0b_uaPCVctDyI/view?usp=sharing" target="_blank" class="btn hire-me">Resume <i class="uil uil-file-alt"></i></a>
-                 </div>
-              </div>
-              </div-->
-
-             
-
-            <!--div class="row">
-              <div class="education padd-15">
-                <h3 class="title">Education</h3>
-                <div class="row">
-                  <div class="timline-box padd-15">
-                    <div class="timline shadow-dark">
-                      <-- *********timeline item********>
-                      <div class="timeline-item">
-                        <div class="circle-dot"></div>
-                        <h3 class="timeline-date">
-                          <i class="fa fa-calendar"></i> 2018 - 2021
-                        </h3>
-                        <h4 class="timeline-title">Bachelor of Computer Science</h4>
-                        <p class="timeline-text">In 2021, I have done my B.Tech from H.R Institute of Technology which is affiliated to DR APJ Abdul Kalam Technical University.</p>
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line"><span class="html"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line"><span class="css"></span></div>
+                  <div class="bar">
+                    <div class="info">
+                      <span>JAVASCRIPT</span>
+                    </div>
+                    <div class="progress-line"><span class="bootstrap"></span></div>
+                    <div class="bar">
+                      <div class="info">
+                        <span>MACHINE LEARNING</span>
                       </div>
-
-                      <div class="timeline-item">
-                        <div class="circle-dot"></div>
-                        <h3 class="timeline-date">
-                          <i class="fa fa-calendar"></i> 2015 - 2018
-                        </h3>
-                        <h4 class="timeline-title">Diploma(Information Technology)</h4>
-                        <p class="timeline-text">In 2018, I have done my Diploma from Seth Jaiprakash Mukand lal which is affiliated to Board of Technical Education, Uttar Pradesh.</p>
-                      </div>
-
-                      <div class="timeline-item">
-                        <div class="circle-dot"></div>
-                        <h3 class="timeline-date">
-                          <i class="fa fa-calendar"></i>2015
-                        </h3>
-                        <h4 class="timeline-title">High School</h4>
-                        <p class="timeline-text">In 2015, I have completed my High School from Greenfield Public School which is affiliated to C.B.S.E Board.</p>
+                      <div class="progress-line"><span class="javascript"></span></div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>PYTHON</span>
+                        </div>
+                        <div class="progress-line"><span class="c"></span></div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div-->
-              <!--div class="experience padd-15">
-                <h3 class="title">Experience</h3>
-                <div class="row">
-                  <div class="timline-box padd-15">
-                    <div class="timline shadow-dark">
-                      <-- *********timeline item******** >
-                      <div class="timeline-item">
-                        <div class="circle-dot"></div>
-                        <h3 class="timeline-date">
-                          <i class="fa fa-calendar"></i> 2020 - 2021
-                        </h3>
-                        <h4 class="timeline-title">UI Developer</h4>
-                        <p class="timeline-text">I have 1 year Experience in UI Developer. As a UI developer we used some Technologies like HTML, CSS , BOOTSTRAP, JAVACSRIPT, JQUERY, SCSS.</p>
-                      </div>
-
-                      <div class="timeline-item">
-                        <div class="circle-dot"></div>
-                        <h3 class="timeline-date">
-                          <i class="fa fa-calendar"></i> 2021 - 2022
-                        </h3>
-                        <h4 class="timeline-title">Frontend Developer</h4>
-                        <p class="timeline-text">I have 6 Months Experience as a Frontend Developer. As a UI developer we used some Technologies like HTML, CSS , BOOTSTRAP, JAVACSRIPT, JQUERY, SCSS, Ajax.</p>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div-->
-            </div>
-
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- ********about-section-end***** -->
-
-      <!-- ********Service-section-start******* -->
-      <section class="service section" id="services">
-       <div class="container">
-        <div class="row">
-          <div class="section-title padd-15">
-            <h2>Skills</h2>
-          </div>
-        </div>
-        <div class="row">
-          <!-- ********service item start ****** -->
-          <div class="service-item padd-15">
-            <div class="service-item-inner">
-              <div>
-                <a href="#" target="_blank" class="btn hire-me">HTML</a><br><br>
-                <a href="#" target="_blank" class="btn hire-me">CSS</a>
-                <a href="#" target="_blank" class="btn hire-me">Python</a><br><br>
-                <a href="#" target="_blank" class="btn hire-me">JavaScript</a>
-                <a href="#" target="_blank" class="btn hire-me">Pandas</a>
               </div>
             </div>
+            <div class="work-arrow-2">
+              <p>
+                <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+              </p>
+            </div>
           </div>
-          <!-- ********service item end ****** -->
-<!-- ********service item start ****** -->
-<div class="service-item padd-15">
-  <div class="service-item-inner">
-    
-    <div>
-      <a href="#" target="_blank" class="btn hire-me">Machine Learning</a><br><br>
-      <a href="#" target="_blank" class="btn hire-me">Data Science</a><br><br>
-      <a href="#" target="_blank" class="btn hire-me">Numpy</a><br><br>
-      <a href="#" target="_blank" class="btn hire-me">Git</a>
-      <a href="#" target="_blank" class="btn hire-me">SQL</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="my-works">
+    <div class="portfolio">
+      <div class="proj-heading">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="portfolio-content container">
+        <div class="proj-1">
+          <img src="medical.jpg">
+          <div class="proj1-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <h2>Medical Analyser</h2>
+            <p>Build Using HTML,CSS,JS, Django, ML</p>
+            <button><a href="https://github.com/Shobika-k2004/Medical_analyser" target="blank">View source <i
+                  class="fas fa-external-link-alt"></i></a>
+            </button>
+          </div>
+        </div>
+
+        <div class="proj-2">
+          <img src="bc1.jpg">
+          <div class="proj2-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <h2>Breast Cancer Prediction</h2>
+            <p>Build Using ML, Streamlit</p>
+            <button><a href="https://github.com/Shobika-k2004/Breast-cancer-app" target="blank">View source <i
+                  class="fas fa-external-link-alt"></i></a>
+            </button>
+          </div>
+
+        </div>
+        <div class="more-work">
+          <a href="https://drive.google.com/file/d/1HCfQKxjEk6JnrTqWrVo0b_uaPCVctDyI/view" target="blank">Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="contact" id="contact-me">
+    <div class="container">
+      <div class="contact-content">
+        <h2>Contact Me</h2>
+        <p class="mail">
+          Get in touch with me <i class="fas fa-arrow-right"></i> shobikadevi41@gmail.com
+        </p>
+        <p class="links">Or find me on:</p>
+        <a href="https://www.linkedin.com/in/shobika-k-0a1027221" target="blank"><i class="fab fa-linkedin">
+            Linkedin</i></a>
+        <a href="https://github.com/Shobika-k2004" target="blank"><i class="fab fa-github"></i> Github</a>
+        <a href="https://twitter.com/ShobikaDev58367" target="blank"><i class="fab fa-twitter"> Twitter</i></a>
+        <a href="https://instagram.com/_.little_cupid__?igshid=MzNlNGNkZWQ4Mg==" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
+      </div>
     </div>
   </div>
-</div>
-<!-- ********service item end ****** -->
-
-<!-- ********service item start ****** -->
-<div class="service-item padd-15">
-  <div class="service-item-inner">
-    <div>
-      <a href="#" target="_blank" class="btn hire-me">ReactJs</a><br><br>
-      <a href="#" target="_blank" class="btn hire-me">Django</a>
-      <a href="#" target="_blank" class="btn hire-me">Flask</a>
-    </div>
-  </div>
-</div>
-<!-- ********service item end ****** -->
-
-        </div>
-       </div>
-      </section>
-      <!-- ********Service-section-end******* -->
-
-      <!-- ********portfolio-section-start******* -->
-      <section class="portfolio section" id="portfolio">
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>Projects</h2>
-            </div>
-          </div>
-          <div class="row">
-           <div class="portfolio-heading padd-15">
-           </div>
-          </div>
-
-          <div class="row">
-            <!-- ********portfolio-item start******* -->
-            <a href="https://github.com/Shobika-k2004/Medical_analyser" target="_blank">
-            <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-img">
-                  <img src="images\medical.jpg" alt="">
-                </div>
-              </div>
-            </div>
-          </a>
-            <!-- ********portfolio-item end******* -->
-             <!-- ********portfolio-item start******* -->
-             <a href="https://github.com/Shobika-k2004/Breast-cancer-app" target="_blank">
-             <div class="portfolio-item padd-15">
-              <div class="portfolio-item-inner shadow-dark">
-                <div class="portfolio-img" >
-                  <img src="images\bc1.jpg"  alt="">
-                </div>
-              </div>
-            </div>
-          </a>
-            <!-- ********portfolio-item end******* -->
-          </div>
-          </div>
-      </section>
-      <!-- ********portfolio-section-end******* -->
-      
-      <!-- ********Contact-section-start -->
-      <section class="contact section" id="contact">
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>Contact Me</h2>
-            </div>
-          </div>
-          </div>
-          <!-- contact-form -->
-          <h3 class="contact-title padd-15">
-            SEND ME AN EMAIL
-          </h3>
-          <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGE</h4>
-          <!-- ********contact-form******* -->
-          <div class="row">
-            <form class="contact-form padd-15" name="google-sheet">
-              <div class="row">
-                <div class="form-item col-6 padd-15">
-                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Name" name="Name">
-                 </div>
-                </div>
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                   <input type="email" class="form-control" placeholder="Email" name="Email">
-                  </div>
-                 </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                   <input type="text" class="form-control" placeholder="Subject" name="Subject">
-                  </div>
-                 </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                   <textarea  class="form-control"  placeholder="Message" name="Message"></textarea>
-                  </div>
-                 </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-6 padd-15">
-                  <button type="submit" class="btn" name="submit">Send Message</button>
-                 </div>
-              </div>
-            </form>
-          </div>
-          <!-- ********contact-form end******* -->
-        </div>
-      </section>
-      <!-- ********Contact-section-end -->
-    </div>
-    <!-- ******* main-content-end ******* -->
-    <!-- **********style switcher start********* -->
-   
-    <!-- **********style switcher end********* -->
-  </div>
-  <!------- main-container end ---------->
-  <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwj3CqRJNdu2Ht3A1VBlWxiptek1HANUxn4B1TG43lv1RuOoiEW5YOFl03u8XAQd1oikw/exec'
-    const form = document.forms['google-sheet']
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-        .catch(error => console.error('Error!', error.message))
-    }) 
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/style-switcher.js"></script>
+  <!-- JAVASCRIPT -->
+  <script src="app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
+
 </html>
